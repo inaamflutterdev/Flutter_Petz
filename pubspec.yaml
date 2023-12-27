@@ -1,0 +1,58 @@
+name: inaam_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  provider: ^6.1.1
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  pin_code_fields: ^8.0.1
+  sms_autofill: ^2.3.0
+  qr_flutter: ^4.1.0
+  dotted_border: ^2.1.0
+  intl: ^0.18.0
+  country_picker: ^2.0.23
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Plus Jakarta Sans
+      fonts: 
+        - asset: assets/fonts/PlusJakartaSansRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSansRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSansRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSansRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSansSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSansMedium.ttf
+          weight: 500
+    - family: Urbanist
+      fonts: 
+        - asset: assets/fonts/UrbanistRegular.ttf
+          weight: 400
+        - asset: assets/fonts/UrbanistRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/UrbanistBold.ttf
+          weight: 700
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
